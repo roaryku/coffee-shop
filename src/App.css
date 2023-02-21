@@ -1,14 +1,17 @@
-.App {
+.App{
   display: flex;
   justify-content: space-around;
+  
 }
 .link{
+  padding: 24px;
   text-decoration: none;
-  margin: 15px;
-  font-size: 25px;
-  letter-spacing: 5px;
-  color: #F9F7F7;
+  font-size: 20px;
+  text-transform: uppercase;
   font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 5px;
+  color: #996c60;
+  
 }
 video{
   object-fit: cover;
@@ -19,4 +22,63 @@ video{
   left: 0;
   z-index: -1;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 100px;
+}
+.two{
+  font-size: 35px;
+  color: #ffffff;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.one{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #F1D3B3;
+}
+.par{
+  color: #ffffff;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 25px;
+}
+.btn{
+  width: 10%;
+  background-color: #F1D3B3;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #450d00;
+}
+.image{
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+.Shop{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.text{
+  position: absolute;
+  
+}
+body{
+  background-color: #f7f8fd;
+}
+
+
+
+
+
+
 

@@ -2,7 +2,7 @@
 function About () {
     return(
         <div>
-            <h1 className='link'>About Us</h1>
+            <h1>About Us</h1>
         </div>
     )
 }
