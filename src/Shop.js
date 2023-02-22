@@ -8,8 +8,8 @@ function Shop () {
             <img className="image" src={image} alt="coffee"/> 
         </div>
         <div className='text'>
-            <h2>RISTORA COFFEE</h2>
-            <h5>MENU</h5>
+            <h2 className='coffee'>RISTORA COFFEE</h2>
+            <h5 className='coffee'>MENU</h5>
         </div>
     </div>
     )

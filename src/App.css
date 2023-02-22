@@ -1,7 +1,9 @@
 .App{
   display: flex;
   justify-content: space-around;
-  
+}
+body{
+  background-color: #f7f8fd;
 }
 .link{
   padding: 24px;
@@ -61,19 +63,19 @@ video{
 .image{
   width: 100%;
   left: 0;
-  z-index: 1;
 }
 .Shop{
   position: relative;
-  display: block;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 .text{
   position: absolute;
-  
-}
-body{
-  background-color: #f7f8fd;
+  top: 20%;
+  left: 15%;
+  text-align: center;
+  color: #996c60;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 3px;
 }
 
 
