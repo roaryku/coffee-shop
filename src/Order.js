@@ -1,9 +1,10 @@
 
 function Order () {
-    return(
-        <div>
-            <h1>Order Online</h1>
-        </div>
+
+return(
+    <div className="bg-Apply">
+
+    </div>
     )
 }
 export default Order;
