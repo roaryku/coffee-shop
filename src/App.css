@@ -1,20 +1,3 @@
-body{
-    background: url("https://img.freepik.com/free-photo/top-view-cup-coffee-with-grain_23-2148170746.jpg?w=1480&t=st=1677176908~exp=1677177508~hmac=381803fba2b063768e518081ff1141a17f98804d419d6d8e9a0fb52ad6542835") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-  
-    animation: increase 60s linear 10ms infinite;
-    -webkit-transition: all 5.2s ease-in-out;
-    -moz-transition: all 5.2s ease-in-out;
-    -ms-transition: all 5.2s ease-in-out;
-    -o-transition: all 5.2s ease-in-out;
-    transition: all 5.2s ease-in-out;
-    z-index: -2;
-  
-    background-color: #f6f8fa;
-  }
 .App{
   display: flex;
   justify-content: space-around;
@@ -78,31 +61,20 @@ video{
   font-size: 15px;
   color: #450d00;
 }
-
-.image{
-  width: 100%;
-  height: 90vh;
-  position: fixed;
-}
-.Shop{
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-}
 .text{
-  position: absolute;
-  top: 15%;
-  left: 15%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   color: #996c60;
   font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 3px;
+  text-align: center;
+  margin-right: 50%;
 }
 .menu{
   margin-top: 40px;
 }
 .listMenu{
-  margin-top: 120px;
   font-size: 20px;
 }
 ul{
@@ -112,6 +84,39 @@ ul{
 }
 li{
   padding: 7px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+.searchName{
+  text-align: center;
+  color: #996c60;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+.div{
+  background: url("https://img.freepik.com/free-photo/top-view-cup-coffee-with-grain_23-2148170746.jpg?w=1480&t=st=1677176908~exp=1677177508~hmac=381803fba2b063768e518081ff1141a17f98804d419d6d8e9a0fb52ad6542835") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  animation: increase 60s linear 10ms infinite;
+  -webkit-transition: all 5.2s ease-in-out;
+  -moz-transition: all 5.2s ease-in-out;
+  -ms-transition: all 5.2s ease-in-out;
+  -o-transition: all 5.2s ease-in-out;
+  transition: all 5.2s ease-in-out;
+  z-index: -2;
+  height: 90vh;
+  background-color: #f6f8fa;
 }
 
 @media all and (max-width: 500px){
