@@ -29,9 +29,9 @@ function Slides ({coffeeSlides}){
                 <img src={coffeeSlides[onlineOrder]} alt="coffee" width="200px" height="300"/>
             </div>
 
-        <div>
-            <button onClick={prevBtn}>Previous</button>
-            <button onClick={nextBtn}>Next</button>
+        <div className="buttons">
+            <button className="bta" onClick={prevBtn}>Previous</button>
+            <button className="bta" onClick={nextBtn}>Next</button>
         </div>
     </div>
     )

@@ -24,7 +24,7 @@ function Coffee ({loveCoffee}) {
                     <div className="product-info">
                         <h3>{name}</h3>
                         <h4>$ {price}</h4>
-                        <button>Order</button>
+                        <button className="order">Order</button>
                     </div>
                     </div>
                 )

@@ -1,10 +1,10 @@
 function Buttons ({filteredDrink}) {
     return(
         <div>
-            <button onClick = {() => filteredDrink("coffee")}>Coffee</button>
-            <button onClick = {() => filteredDrink("latte")}>Latte</button>
-            <button onClick = {() => filteredDrink("cappucino")}>Cappucino</button>
-            <button onClick = {() => filteredDrink("americano")}>Americano</button>
+            <button className="cta" onClick = {() => filteredDrink("coffee")}>Coffee</button>
+            <button className="cta" onClick = {() => filteredDrink("latte")}>Latte</button>
+            <button className="cta" onClick = {() => filteredDrink("cappucino")}>Cappucino</button>
+            <button className="cta" onClick = {() => filteredDrink("americano")}>Americano</button>
         </div>
     )
 }
