@@ -26,7 +26,7 @@ function Slides ({coffeeSlides}){
     return(
         <div>
             <div className="product-card">
-                <img src={coffeeSlides[onlineOrder]} alt="coffee" width="200px" height="300"/>
+                <img src={coffeeSlides[onlineOrder]} alt="coffee" width="200px" height="200"/>
             </div>
 
         <div className="buttons">

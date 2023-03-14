@@ -5,12 +5,12 @@ import Slides from './Slides';
 function Coffee ({loveCoffee}) {
     
     const [order, setOrder] = useState(data);
-
+    
     const removeQuantity = (quantity) => {
         let newQuantity = order.filter(available => available.quantity !==quantity);
         setOrder(newQuantity)
-      }
-    
+    }
+
     return(
         <div className="product">
             {loveCoffee.map((element => {
@@ -24,7 +24,7 @@ function Coffee ({loveCoffee}) {
                     <div className="product-info">
                         <h3>{name}</h3>
                         <h4>$ {price}</h4>
-                        <button className="order">Order</button>
+                        <button className="order">ORDER</button>
                     </div>
                     </div>
                 )

@@ -44,23 +44,18 @@ video{
   letter-spacing: 3px;
   color: #F1D3B3;
 }
+.family{
+  color: #a87556;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
 .par{
   color: #ffffff;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 25px;
 }
-.btn{
-  width: 10%;
-  background-color: #F1D3B3;
-  padding: 15px;
-  border: none;
-  border-radius: 30px;
-  margin-top: 20px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: #450d00;
-}
+
 .text{
   display: flex;
   flex-direction: column;
@@ -164,6 +159,41 @@ li{
   letter-spacing: 3px;
   border-radius: 3px;
 }
+.about{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #e8e8e8;
+}
+.imageCoffee{
+  width: 400px;
+  background-color: #e8e8e8;
+  padding: 30px;
+}
+.aboutPar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  
+}
+.bussiness{
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #a87556;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.showMore{
+  border: none;
+  background-color: #f7f8fd;
+  color: #55a1e0;
+}
+.showMore:hover{
+  font-size: 15px;
+  color: #E64848;
+}
 
 @media all and (max-width: 500px){
   .link{
@@ -177,7 +207,25 @@ li{
   .coffee{
     left: 0;
   }
-  
+  .aboutPar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  .family{
+    font-size: 20px;
+  }
+  .one{
+    font-size: 35px;
+  }
+  .imageCoffee{
+    width: 300px;
+  }
+  .bussiness{
+    font-size: 15px;
+  }
 }
 
 

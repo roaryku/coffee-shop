@@ -15,7 +15,7 @@ function Home(){
       <h2 className='heading two'>Welcome to</h2>
       <h1 className='heading one'>RISTORA COFFEE</h1>
       <p className='par'>We ensure organic coffee for you. Hopping you and your family will enjoy it.</p>
-      <button className='btn'>ENJOY</button>
+      <p className='heading one'>WE'RE HAPPY YOU ARE HERE</p>
     </div>
     </div>
     )
