@@ -2,7 +2,7 @@ import { useState } from "react";
 import { dataAbout } from './dataAbout';
 
 function About () {
-    const [about, setAbout] = useState(dataAbout);
+    const [about] = useState(dataAbout);
     const [showText, setShowText] = useState(false);
 
     return(
