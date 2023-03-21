@@ -145,10 +145,7 @@ li{
   padding: 10px;
   background-color: #609966;
 }
-.order:hover{
-  padding: 13px;
-  background-color: #990000;
-}
+
 .order{
   padding: 10px;
   border: none;
@@ -161,7 +158,9 @@ li{
 }
 .green{
   background-color: #9DC08B;
-}
+  padding: 13px;
+  }
+
 .about{
   display: flex;
   justify-content: center;
