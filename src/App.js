@@ -16,17 +16,17 @@ function App() {
     <div>
   <Router>
     <nav className='App'>
-      <Link path to ='/home' className='link shop'>Home</Link>
+      <Link to ='/' className='link shop'>Home</Link>
       <Link to = '/shop' className='link shop'>Menu</Link>
       <Link to = '/order' className='link shop'>Order</Link>
       <Link to = '/about' className='link shop'>About</Link>
     </nav>
 
     <Routes>
-      <Route path='/home' element={<Home />}/>
-      <Route path='/shop' element={<Shop />} />
-      <Route path='/order' element={<Order />} />
-      <Route path='/about' element={<About />} />
+      <Route path = '/' element={<Home />}/>
+      <Route path = '/shop' element={<Shop />} />
+      <Route path = '/order' element={<Order />} />
+      <Route path = '/about' element={<About />} />
     </Routes>
     </Router>
 </div>
