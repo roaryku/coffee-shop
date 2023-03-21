@@ -16,10 +16,10 @@ function App() {
     <div>
   <Router>
     <nav className='App'>
-      <Link to='/home' className='link shop'>Home</Link>
-      <Link to = '/shop' className='link shop'>Menu</Link>
-      <Link to = '/order' className='link shop'>Order</Link>
-      <Link to = '/about' className='link shop'>About</Link>
+      <Link path to='/home' className='link shop'>Home</Link>
+      <Link path to = '/shop' className='link shop'>Menu</Link>
+      <Link path to = '/order' className='link shop'>Order</Link>
+      <Link path to = '/about' className='link shop'>About</Link>
     </nav>
 
     <Routes>

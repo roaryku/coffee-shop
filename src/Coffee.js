@@ -1,7 +1,16 @@
 import Slides from './Slides';
+import { useState } from 'react';
 
 function Coffee ({loveCoffee}) {
-    
+
+    const [changeColor, setChangeColor] = useState(false);
+    const [buttonText, setButtonText] = useState("Order");
+
+    const handleClick = () => {
+        setChangeColor(!changeColor)
+        setButtonText("Added")
+    }
+
     return(
         <div className="product">
             {loveCoffee.map((element => {
@@ -15,7 +24,12 @@ function Coffee ({loveCoffee}) {
                     <div className="product-info">
                         <h3>{name}</h3>
                         <h4>$ {price}</h4>
-                        <button className="order">ORDER</button>
+                        <button
+                                className={`order ${(changeColor === true)? 'green' : 'order'}`}
+                                type="submit"
+                                onClick={() => handleClick ()}>
+                                {buttonText}
+                                </button>
                     </div>
                     </div>
                 )
@@ -23,4 +37,6 @@ function Coffee ({loveCoffee}) {
         </div>
     )
 }
+
+
 export default Coffee;
